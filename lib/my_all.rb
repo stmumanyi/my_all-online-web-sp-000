@@ -8,5 +8,5 @@ def my_all?(collection)
   yield(collection[i])
   i = i + 1
 end
- if false 
+ if block_return_values?
 end
